@@ -1,12 +1,10 @@
-﻿using SRML;
+﻿using SRML.Utils.Enum;
 
 namespace PowerStorageMod
 {
+    [EnumHolder]
     internal class PowerStorageIds
     {
-
-        public static readonly Identifiable.Id MIXED_PLORT;
         public static readonly Gadget.Id ENERGY_GENERATOR;
-
     }
 }
